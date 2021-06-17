@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T02:19:07.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="6bE9c5f8QOCXhIDzRxCs" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T02:22:58.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="WvGzn4bgeeKdmZR7I38u" version="14.7.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1504" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1065" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -230,7 +230,7 @@
         <mxCell id="EMNxxHcLQM_PSfE0qUSJ-29" value="Calculate p(h | w) y(s,t,u,v | w)&amp;nbsp;&amp;nbsp;by using lower range for w" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="719" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EMNxxHcLQM_PSfE0qUSJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="EMNxxHcLQM_PSfE0qUSJ-29">
+        <mxCell id="EMNxxHcLQM_PSfE0qUSJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EMNxxHcLQM_PSfE0qUSJ-23" target="EMNxxHcLQM_PSfE0qUSJ-29">
           <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="601" y="661" as="sourcePoint" />
@@ -253,10 +253,10 @@
         <mxCell id="EMNxxHcLQM_PSfE0qUSJ-36" value="Change Area code to Prefecture Level&amp;nbsp;and get y(h | w)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="246" y="880" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EMNxxHcLQM_PSfE0qUSJ-37" value="get y(h | w) by using&lt;br&gt;Prefecture AreaCode" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="EMNxxHcLQM_PSfE0qUSJ-37" value="get y(k | w) by using&lt;br&gt;Prefecture AreaCode" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="406" y="880" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EMNxxHcLQM_PSfE0qUSJ-38" value="All values is 0 for y(h | w)" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="EMNxxHcLQM_PSfE0qUSJ-38" value="All values is 0 for y(k | w)" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="416" y="951" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EMNxxHcLQM_PSfE0qUSJ-39" value="Use lower range for w&lt;br&gt;until getting the value&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -299,6 +299,13 @@
             <mxPoint as="offset" />
             <mxPoint x="376" y="582" as="sourcePoint" />
             <mxPoint x="416" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMNxxHcLQM_PSfE0qUSJ-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EMNxxHcLQM_PSfE0qUSJ-37" target="EMNxxHcLQM_PSfE0qUSJ-38">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="376" y="910" as="sourcePoint" />
+            <mxPoint x="416" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
