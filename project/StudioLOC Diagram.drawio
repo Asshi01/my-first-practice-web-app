@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T05:21:02.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="rBHg4YlxX7pNG4vDwt2u" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T05:23:11.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="DVxe4_yBIcy6EV6P6XT9" version="14.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1504" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -771,7 +771,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TxVd3-o8n_DQplM2rzQZ-10" value="Use&amp;nbsp;&lt;span style=&quot;font-size: 10px&quot;&gt;relative_increase y which is larger than N&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="TxVd3-o8n_DQplM2rzQZ-10" value="Use 1 for &lt;span style=&quot;font-size: 10px&quot;&gt;d(x,w)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="296" y="2060" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TxVd3-o8n_DQplM2rzQZ-11" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="TxVd3-o8n_DQplM2rzQZ-10">
